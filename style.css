@@ -1,0 +1,131 @@
+   *{
+       margin: 0;
+       padding: 0;
+       font-family: 'Jost', sans-serif;
+     
+   }
+   nav{
+       background-color: #8ae6dc;
+   }
+  #heading{
+      background: linear-gradient(rgba(0,0,0,0.5),#009688),url(images/bank.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      
+  }
+ 
+ 
+  .heading-text{
+      text-align: center;
+      color: aliceblue;
+      padding-top: 180px;
+  }
+  .heading-text h1{
+      font-size: 130px;
+  }
+  .heading-text p{
+      font-size: 20px;
+      font-style: italic;
+  }
+  .btn{
+      margin: 80px auto 0;
+      font-size: 25px;
+      
+    
+
+  }
+  
+  .btn a{
+    border-radius: 15px;
+    height: 30px;
+      width: 200px;
+      text-decoration: none;
+      display: inline-block;
+      margin: 0 10px ;
+      padding: 12px 0;
+      color: white;
+      border: .5px solid white;
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      transition: color .5s;
+  }
+  .btn a span{
+     width: 0%;
+     height: 100%; 
+     position: absolute;
+     top: 0;
+     border-radius: 15px;
+     left: 0px;
+     background: rgb(224, 228, 15);
+     z-index: -1;
+     transition: .5s;
+    
+  }
+  .btn a:hover span{
+      width: 100%;
+
+  }
+  .btn a:hover {
+    color: black;
+
+}
+.heading-text p{
+    font-size: 30px;
+    color: rgb(128, 0, 60);
+    font-weight: 600;
+}
+th{
+    background-color: rgb(235, 199, 81);
+    border: 3px solid rgb(124, 5, 55);
+   
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    color: blue;
+
+}
+td,td ,table{
+    background-color: rgb(235, 199, 81);
+    border: 1px solid blue;
+    margin-left:300px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+
+}
+.my-h3{
+    
+    margin-top: 80px;  
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+color: rgb(97, 4, 47);
+    text-decoration: underline;
+}
+.head1{
+    text-align: center;
+    font-style: italic;
+    color: maroon;
+    text-decoration: underline;
+
+}
+.main{
+    background:linear-gradient(rgba(0,0,0,0.5),#009688);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
+}
+button{
+    background-color: #009688;
+    padding: 2px 2px 2px 2px;
+    color: white;
+    border-radius: 15px;
+}
+button:hover{
+    background: #8ae6dc;
+    color: black;
+}
